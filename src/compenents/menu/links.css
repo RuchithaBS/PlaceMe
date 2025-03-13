@@ -1,0 +1,14 @@
+.functionalities {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the links horizontally */
+    margin-top: 80px;
+  }
+  
+  .functionalities a {
+    font-size: 32px; /* Increase font size */
+    text-decoration: none; /* Remove underlines */
+    color: black;
+    font-weight: bold;
+    margin: 40px;
+  }

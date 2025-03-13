@@ -1,0 +1,83 @@
+.about-section {
+  background-image: url("./goodbg.jpeg");
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh; /* Ensure it covers the viewport */
+  width: 100%;
+  overflow: hidden;
+}
+  
+  .about-section h1 {
+    text-align: center;
+    padding-top: 80px;
+    color:black;
+  }
+
+
+
+  .about-section h2 {
+    color: whitesmoke;
+  }
+
+  
+  .about-section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+  }
+
+
+ 
+  .details {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 90%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center; /* This will center the content vertically */
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    margin: 0 auto; /* This will center the div horizontally */
+}
+
+  .features{
+    justify-content: center;
+    padding: 80px;
+    color:whitesmoke;
+    font-weight: lighter;
+  }
+
+  .benefits{
+    justify-content: center;
+    padding: 80px;
+    color:whitesmoke;
+    font-weight: lighter;
+    
+
+  }
+
+  .team{
+    justify-content: center;
+    padding: 80px;
+    color:whitesmoke;
+    font-weight: lighter;;
+
+  }
+
+  .plans{
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    top: 80%;
+    height: 90%;
+    width: 90%;
+    padding: 20px;
+    align-items: center; /* This will center the content vertically */
+    border-radius: 100px;
+    margin: 0 auto; /* This will center the div horizontally */
+
+  }

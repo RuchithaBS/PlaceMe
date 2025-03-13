@@ -1,0 +1,52 @@
+.bg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative; /* Contains the absolute positioned contact div */
+    background-color:#ffffff;
+    /* #d5d5e5; */
+
+}
+
+.contact {
+    position: absolute; /* Make it absolute so it can be centered */
+    top: 20px; /* Adjust this value to control how far it is from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Move left by 50% of its own width to perfectly center */
+    z-index: 10; /* Ensure it's on top of the Spline scene */
+    color: black; /* Make text visible on the background */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Round the corners */
+    text-align: center; /* Center the text */
+}
+
+.cover{
+    position: absolute; /* Make it absolute so it can be centered */
+    top:85%;
+    left:84%;
+    z-index: 10; /* Ensure it's on top of the Spline scene */
+    color: black; /* Make text visible on the background */
+    padding: 30px;
+    border-radius: 10px; /* Optional: Round the corners */
+    text-align: center; /* Center the text */
+    background-color: white;
+}
+
+.cover h4{
+    font-weight: lighter;
+    
+}
+
+h1{
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-top: -30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
